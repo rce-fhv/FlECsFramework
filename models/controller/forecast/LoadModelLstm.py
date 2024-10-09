@@ -6,8 +6,8 @@ import pathlib
 
 # Imports own modules.
 # All imports are done relative to the root of the project.
-import models.controller.model.Model as model
-import models.controller.model.LstmAdapter as LstmAdapter
+import models.controller.forecast.Model as model
+import models.controller.forecast.LstmAdapter as LstmAdapter
 
 
 class LoadModelLstm():
